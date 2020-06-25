@@ -7,9 +7,9 @@
 
 - **Debug打印**：编写程序初期，在找问题时经常会做很多打印，待程序完成时又要将多余的打印去掉。此时使用宏定义"#define DEBUG_APP"（名字自己看着取），如下：
 `
-#ifdef DEBUG_APP `
-`printf("This is printf information. \n"); `
-`#endif 
+#ifdef DEBUG_APP 
+printf("This is printf information. \n"); 
+#endif 
 `
 当我们不需要这些打印时，只需注释掉上面的宏定义，便可。
 
